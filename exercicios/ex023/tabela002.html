@@ -13,7 +13,13 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
 
+        thead > tr > th {
+            position: sticky;
+            top: 48px;
+            background-color:  gray;
         }
 
         tbody > tr:nth-child(2n) {
@@ -31,7 +37,10 @@
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
-            background-color: lightgrey     ;
+            background-color: lightgrey;
+            position: sticky;
+            top: 0;
+
         }
 
 
